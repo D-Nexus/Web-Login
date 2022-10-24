@@ -1,0 +1,51 @@
+html{
+    background-image: url(imagenes/fondo.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.login_container{
+    text-align: center;
+    font-size: larger;
+}
+.box_container{
+    margin-top: 3%;
+}
+
+.login_logo{
+    /*Remover el fondo blanco de una imagen*/
+    filter: brightness(1.1);
+    mix-blend-mode:multiply;
+    margin-top: 5%;
+}
+#box_username{
+    box-shadow: 0px 0px 10px rgba(0, 213, 255);
+    background: inherit;
+    height: 25px;
+    width: 15%;
+    color: white;
+    font-size: large;
+}
+#box_password{
+    margin-top: 2%;
+    height: 25px;
+    width: 15%;
+    box-shadow: 0px 0px 10px rgb(0, 213, 255);
+    background: inherit;
+    color: white;
+    font-size: large;
+}
+.logo{
+    filter: drop-shadow(0px 0px 25px rgb(0, 213, 255));
+}
+::placeholder{
+    text-align: center;
+    font-size: large;
+    color: rgb(5, 235, 220);
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+
+
