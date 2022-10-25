@@ -8,6 +8,8 @@ html{
 .login_container{
     text-align: center;
     font-size: larger;
+    margin-top: 10%;
+    height: auto;
 }
 .box_container{
     margin-top: 3%;
@@ -18,19 +20,23 @@ html{
     filter: brightness(1.1);
     mix-blend-mode:multiply;
     margin-top: 5%;
+    height: auto;
+    width: auto;
 }
 #box_username{
+    margin-top: 5%;
     box-shadow: 0px 0px 10px rgba(0, 213, 255);
     background: inherit;
     height: 25px;
-    width: 15%;
+    width: 50%;
     color: white;
     font-size: large;
 }
 #box_password{
-    margin-top: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     height: 25px;
-    width: 15%;
+    width: 50%;
     box-shadow: 0px 0px 10px rgb(0, 213, 255);
     background: inherit;
     color: white;
@@ -38,6 +44,9 @@ html{
 }
 .logo{
     filter: drop-shadow(0px 0px 25px rgb(0, 213, 255));
+    margin-top: 3%;
+    height: 60%;
+    width: 60%;
 }
 ::placeholder{
     text-align: center;
@@ -46,6 +55,12 @@ html{
     font-family:'Courier New', Courier, monospace;
 }
 
-
+.marco{
+    height: 100%;
+    width: 30%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px rgb(0, 183, 255);
+    border-radius: 15%;
+}
 
 
